@@ -8,7 +8,7 @@ Peform Following Operation.
 
 1. Create table
 
-from sqlite3 import *
+from sqlite3 import *y678
 
 conn = connect('C:\\sqlite3\\ESM.db')
 
@@ -92,7 +92,7 @@ conn = connect('C:\\sqlite3\\ESM.db')
 
 curobj =  conn.cursor()
 
-query = "update employee56
+query = "update employee
                     set basic = basic + (basic*10)/100\
                     where branch like 'Surat'"
 
